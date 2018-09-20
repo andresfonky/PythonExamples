@@ -6,7 +6,7 @@
     <ProjectGuid>364eab0c-29b8-44e9-bd04-2282a95c7cd3</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Strings\strings.py</StartupFile>
+    <StartupFile>launcher.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,21 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Functions\minmax.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Functions\rootsquare.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Functions\stickgame.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Functions\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="launcher.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="loops\guessnumber.py">
       <SubType>Code</SubType>
     </Compile>
@@ -33,14 +48,21 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="loops\aquiles.py" />
+    <Compile Include="loops\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Strings\multiplelines.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Strings\strings.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Strings\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Functions\" />
     <Folder Include="loops\" />
     <Folder Include="Strings\" />
   </ItemGroup>
