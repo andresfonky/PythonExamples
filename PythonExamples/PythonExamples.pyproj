@@ -26,6 +26,9 @@
     <Compile Include="Functions\minmax.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Functions\nimgame.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Functions\rootsquare.py">
       <SubType>Code</SubType>
     </Compile>

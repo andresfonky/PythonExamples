@@ -31,9 +31,11 @@ def displayState(val):
             val = 0
 
 def getMove():
+    playboard = [5, 7, 9]
     userchoice = 0
     while userchoice <= 0 or userchoice > 3:
         try:
+            userc = int(input("Your move: Choose number (1-%d) (0 to return): " % len(playboard)))
             userchoice = int(input("Your move: Take away how many? (1-3): "))
         except:
             print ("Sorry, your guess must be an integer.", end = "\n")
